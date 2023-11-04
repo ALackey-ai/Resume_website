@@ -46,39 +46,68 @@ head {
     color: white;
     text-align: center;
     margin-bottom: 25px;
+    /* outline-style: solid;
+    outline-color: green; */
 }
 @media (max-width: 600px) { /*for mobile view */
     #title {
-        font-size: 55px;
+        font-size: 60px;
     }
 }
 
 #social_links {
     margin: auto;
     text-align: center;
+    height: 40px;
+    line-height: 40px;
     /* outline-style: solid;
     outline-color: red; */
 }
 
 #social_links img {
-    margin: auto;
     display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 1px;
-    margin-left: 1px;
+    margin: auto;
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    /* outline-style: solid;
+    outline-color: green; */
+}
 
+#social_links img:hover {
+    opacity: 0.6;
+}
+
+#social_links a {
+    text-decoration: none;
 }
 
 #gmail-icon {
     width: 35;
     height: 30;
+    vertical-align: middle;
 }
+@media (max-width: 600px) { /*for mobile view */
+    #gmail-icon {
+        width: 30;
+        height: 25;
+    }
+}
+
 
 #linked_in_icon {
     width: 31;
     height: 30;
+    vertical-align: middle;
 }
+@media (max-width: 600px) { /*for mobile view */
+    #linked_in_icon {
+        width: 31;
+        height: 25;
+    }
+}
+
+
 
 
 

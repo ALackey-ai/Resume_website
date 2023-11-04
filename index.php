@@ -44,6 +44,7 @@
             <a href="https://www.linkedin.com/in/andrew-lackey-bb2049253/" target="_blank">
               <img src="linked_in_icon.png" id="linked_in_icon">
             </a>
+            
           </div>
         </div>
 
