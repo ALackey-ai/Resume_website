@@ -12,28 +12,38 @@
     <link rel = "stylesheet" href = "style_Login_Signup.css"> -->
   
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-    </style>
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  </style>
 
+  
   <!-- // add some scripts as needed -->
 <!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script type = "text/javascript" src="buttonFunction.js"></script>
     <script type = "text/javascript" src="renderCorrectInfoBasedOnAuth.js"></script> -->
     
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Andrew Lackey</title> <!-- do I need this here? -->
+
+    </head>
 
     <body>
-        <div id = "topWrap" class = "wrapper">
-        <div id="tsparticles"></div>
+        <div id = "topWrapper">
+          <div id="particles-js">
+            <h1 id="title">
+              Andrew Lackey
+            </h1>
+          </div>
 
-          <!-- script -->
-          <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.16.2/dist/tsparticles.min.js" integrity="sha256-2Sly/Hf9UP7YBu6LEPpn/6rxMZR5EeGq89mBa4G5+YA=" crossorigin="anonymous"></script>
+          <!-- particles js files -->
+          <!-- first particles.js file and then app.js -->
+          <script src="particles.js"></script>
           <script src="app.js"></script>
 
-        <div class = "top_bar"> 
-          Hellooo
         </div>
-        </div>
+
     </body>
 </html>
             
