@@ -33,10 +33,18 @@
       <div id="particles-js">
 
         <div id="main_box">
-          <img src="portrait.jpg" id="portrait"  alt="Avatar">
+          <img src="portrait.jpg" id="portrait">
           <h1 id="title">
           Andrew Lackey
           </h1>
+          <div id="social_links">
+            <a href="mailto:andrewlackey97@gmail.com">
+              <img src="gmail-icon.png" id="gmail-icon">
+            </a>
+            <a href="https://www.linkedin.com/in/andrew-lackey-bb2049253/" target="_blank">
+              <img src="linked_in_icon.png" id="linked_in_icon">
+            </a>
+          </div>
         </div>
 
         <div id="sub_box">

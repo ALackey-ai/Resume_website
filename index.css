@@ -19,8 +19,8 @@ head {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* outline-style: solid; */
-    /* outline-color: pink; */
+    /* outline-style: solid;
+    outline-color: pink; */
 }
 
 #main_box img {
@@ -34,19 +34,52 @@ head {
     width: 300;
     height: 300;
 }
-@media (max-width: 1000px) {
+@media (max-width: 600px) { /*for mobile view */
     #portrait {
-        width: 100;
-        height: 100;
+        width: 150;
+        height: 150;
     }
 }
 
 #title {
     font-size: 90px;
     color: white;
+    text-align: center;
+    margin-bottom: 25px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 600px) { /*for mobile view */
     #title {
-        font-size: 60px;
+        font-size: 55px;
     }
 }
+
+#social_links {
+    margin: auto;
+    text-align: center;
+    /* outline-style: solid;
+    outline-color: red; */
+}
+
+#social_links img {
+    margin: auto;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 1px;
+    margin-left: 1px;
+
+}
+
+#gmail-icon {
+    width: 35;
+    height: 30;
+}
+
+#linked_in_icon {
+    width: 31;
+    height: 30;
+}
+
+
+
+
