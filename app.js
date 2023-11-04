@@ -19,7 +19,7 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 18,
+        "value": 25,
         "density": {
           "enable": true,
           "value_area": 500
@@ -54,12 +54,12 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 3,
+        "value": 3.5,
         "random": true,
         "anim": {
           "enable": false,
           "speed": 40,
-          "size_min": 0.2,
+          "size_min": 0.4,
           "sync": false
         }
       },
@@ -72,7 +72,7 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 2.8,
+        "speed": 1.2,
         "direction": "none",
         "random": false,
         "straight": false,

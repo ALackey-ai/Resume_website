@@ -30,19 +30,24 @@
     </head>
 
     <body>
-        <div id = "topWrapper">
-          <div id="particles-js">
-            <h1 id="title">
-              Andrew Lackey
-            </h1>
-          </div>
+      <div id="particles-js">
 
-          <!-- particles js files -->
-          <!-- first particles.js file and then app.js -->
-          <script src="particles.js"></script>
-          <script src="app.js"></script>
+        <div id="main_box">
+          <img src="portrait.jpg" id="portrait"  alt="Avatar">
+          <h1 id="title">
+          Andrew Lackey
+          </h1>
+        </div>
+
+        <div id="sub_box">
 
         </div>
+      </div>
+
+      <!-- particles js files -->
+      <!-- first particles.js file and then app.js -->
+      <script src="particles.js"></script>
+      <script src="app.js"></script>
 
     </body>
 </html>
