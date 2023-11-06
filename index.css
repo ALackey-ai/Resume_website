@@ -1,9 +1,13 @@
+/* This stops a blue highlight to appear when tapping on buttons on mobile */
 * {
     -webkit-tap-highlight-color: transparent;
 }
 
 body {
+    width: 100%;
+    position: relative;
     background-color:rgb(65, 65, 65);
+    margin: 0px;
 }
 
 head {
@@ -14,18 +18,26 @@ head {
 }
 
 #particles-js {
+    position: relative;
     width: 100%;
-    height: 100vh;
+    height: 1600px;
+    z-index: -10;
 }
 
 #main_box {
     position: absolute;
-    top: 45%;
+    top: 130px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     /* outline-style: solid;
     outline-color: pink; */
 }
+@media (max-width: 600px) { /*for mobile view */
+    #main_box {
+        top: 145px;
+    }
+}
+
 
 #main_box img {
     margin: auto;
@@ -35,13 +47,13 @@ head {
 
 #portrait {
     border-radius: 50%;
-    width: 300;
-    height: 300;
+    width: 310;
+    height: 310;
 }
 @media (max-width: 600px) { /*for mobile view */
     #portrait {
-        width: 150;
-        height: 150;
+        width: 170;
+        height: 170;
     }
 }
 
@@ -50,12 +62,13 @@ head {
     color: white;
     text-align: center;
     margin-bottom: 25px;
+    white-space: nowrap;
     /* outline-style: solid;
     outline-color: green; */
 }
 @media (max-width: 600px) { /*for mobile view */
     #title {
-        font-size: 60px;
+        font-size: 55px;
     }
 }
 
@@ -76,6 +89,12 @@ head {
     margin-left: 15px;
     /* outline-style: solid;
     outline-color: green; */
+}
+@media (max-width: 600px) { /*for mobile view */
+    #social_links img {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
 }
 
 #social_links img:hover {
@@ -111,3 +130,65 @@ head {
     }
 }
 
+
+
+/* Next section of homepage */
+
+#wrapper {
+    position: absolute;
+    width: 100%;
+    /* outline-style: solid;
+    outline-color: orange; */
+    top: 850px;
+    margin-top: 0px;
+}
+@media (max-width: 600px) { /*for mobile view */
+    #wrapper {
+        top: 700px;
+    }
+}
+
+#sub_box1 {
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+    margin-bottom: 100px;
+    outline-style: solid;
+    outline-color: orange;
+}
+
+
+#Introduction_background {
+    margin: 25%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 95px;
+    /* outline-style: solid;
+    outline-color: green; */
+}
+
+#Introduction_background h2 {
+    color: white;
+    font-size: 50px;
+}
+
+#stats li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#stats li {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 6px;
+}
+
+
+/* #sub_box2 {
+    width: 100%;
+    height: 400px;
+    display: block;
+    margin-bottom: 400px;
+} */

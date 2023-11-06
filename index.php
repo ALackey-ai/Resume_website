@@ -30,7 +30,7 @@
     </head>
 
     <body>
-      <div id="particles-js">
+      <div id="particles-js" id="par1">
 
         <div id="main_box">
           <img src="portrait.jpg" id="portrait">
@@ -44,12 +44,37 @@
             <a href="https://www.linkedin.com/in/andrew-lackey-bb2049253/" target="_blank">
               <img src="linked_in_icon.png" id="linked_in_icon">
             </a>
-            
           </div>
         </div>
+        
+        <div id="wrapper">
+          <div id="sub_box1">
+            <div id="Introduction_background">
+              <h2 id="About_me">
+                A little about me...
+              </h2>
+              <ul id="stats">
+                <li><a href="link to achor of my degree">B.S. Computer Science, Emphasis in Cyber Security<a></li>
+                <li><a href="link to achor of fire">Three years first responder experience as firefighter<a></li>
+                <li><a href="link to achor of HPE internship">Four months with Hewlett Packard Enterprise as Software Engineer Intern<a></li>
+              </ul>
+            </div>
+          
 
-        <div id="sub_box">
+          </div>
 
+          <!-- <div id="sub_box2">
+            <div id="Introduction_background">
+              <h2 id="About_me">
+                A little about me...
+              </h2>
+              <ul id="stats">
+                <li><a href="link to achor of my degree">B.S. Computer Science, Emphasis in Cyber Security<a></li>
+                <li>3 years first responder experience as firefighter</li>
+                <li>Nearly 4 months with Hewlett Packard Enterprise as Software Engineer Intern</li>
+              </ul>
+            </div>
+          </div> -->
         </div>
       </div>
 
