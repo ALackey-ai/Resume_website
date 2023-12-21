@@ -66,14 +66,12 @@
           </div>
 
           <!-- <div id="sub_box2">
-            <div id="Introduction_background">
-              <h2 id="About_me">
-                A little about me...
+            <div id="Extended_descrip">
+              <h2 id="More_about_me">
+                Extended description of experiences and skills
               </h2>
-              <ul id="stats">
-                <li><a href="link to achor of my degree">B.S. Computer Science, Emphasis in Cyber Security<a></li>
-                <li>3 years first responder experience as firefighter</li>
-                <li>Nearly 4 months with Hewlett Packard Enterprise as Software Engineer Intern</li>
+              <ul id="details">
+                <li><a href="link to this list item">Put Something here...<a></li>
               </ul>
             </div>
           </div> -->

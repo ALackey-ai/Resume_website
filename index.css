@@ -199,9 +199,50 @@ head {
 }
 
 
-/* #sub_box2 {
+#sub_box2 {
     width: 100%;
-    height: 400px;
+    background-color: rgb(58, 58, 58);
+    margin-bottom: 100px;
+    outline-style: solid;
+    outline-color: orange;
+}
+@media (max-width: 600px) { /*for mobile view */
+    #sub_box2 {
+        margin-top: -97px;
+    }
+}
+
+
+/* #Extended_descrip {
+    margin: 25%;
+    margin-top: 0px;
+    margin-bottom: 0px;
     display: block;
-    margin-bottom: 400px;
+    padding-top: 80px;
+    padding-bottom: 95px;
+}
+@media (max-width: 600px) { 
+    #Extended_descrip {
+        margin-left: 7%;
+        margin-right: 7%;
+        padding-top: 50px;
+        padding-bottom: 75px;
+    }
+} */
+
+/* #Extended_descrip h2 {
+    color: white;
+    font-size: 50px;
+} */
+
+/* #details li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+} */
+
+/* #details li {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 6px;
 } */
