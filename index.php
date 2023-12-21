@@ -55,8 +55,9 @@
               </h2>
               <ul id="stats">
                 <li><a href="link to achor of my degree">B.S. Computer Science, Emphasis in Cyber Security<a></li>
-                <li><a href="link to achor of fire">Three summers of first responder experience as wilddland firefighter<a></li>
+                <li><a href="link to achor of fire">Three summers of first responder experience as wildland firefighter<a></li>
                 <li><a href="link to achor of HPE internship">Four months with Hewlett Packard Enterprise as Software Engineer Intern<a></li>
+                <li><a href="link to achor of HPE job">Offered and accepted job as full-time Software Engineer with HPE upon graduation<a></li>
                 <!-- <li><a href="link to achor of HPE job">Currently working as a Software Engineer at Hewlet Packard Enterprise<a></li> -->
               </ul>
             </div>

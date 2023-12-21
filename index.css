@@ -174,9 +174,10 @@ head {
 }
 @media (max-width: 600px) { /*for mobile view */
     #introduction_background {
-        margin-left: 10%;
-        margin-right: 10%;
-        padding-top: 55px;
+        margin-left: 7%;
+        margin-right: 7%;
+        padding-top: 50px;
+        padding-bottom: 75px;
     }
 }
 
