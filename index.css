@@ -68,7 +68,7 @@ head {
 }
 @media (max-width: 600px) { /*for mobile view */
     #title {
-        font-size: 55px;
+        font-size: 45px;
     }
 }
 

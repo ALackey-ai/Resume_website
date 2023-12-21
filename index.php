@@ -25,7 +25,7 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- <title>Andrew Lackey</title> do I need this here? -->
+      
 
     </head>
 
@@ -55,8 +55,9 @@
               </h2>
               <ul id="stats">
                 <li><a href="link to achor of my degree">B.S. Computer Science, Emphasis in Cyber Security<a></li>
-                <li><a href="link to achor of fire">Three years first responder experience as firefighter<a></li>
+                <li><a href="link to achor of fire">Three summers of first responder experience as wilddland firefighter<a></li>
                 <li><a href="link to achor of HPE internship">Four months with Hewlett Packard Enterprise as Software Engineer Intern<a></li>
+                <!-- <li><a href="link to achor of HPE job">Currently working as a Software Engineer at Hewlet Packard Enterprise<a></li> -->
               </ul>
             </div>
           
