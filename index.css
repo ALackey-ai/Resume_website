@@ -34,7 +34,7 @@ head {
 }
 @media only screen and (max-width: 650px) { /*for mobile view */
     #main_box {
-        top: 145px;
+        top: 140px;
     }
 }
 
@@ -68,7 +68,8 @@ head {
 }
 @media only screen and (max-width: 650px) { /*for mobile view */
     #title {
-        font-size: 45px;
+        font-size: 40px;
+        padding-top: 10px;
     }
 }
 
