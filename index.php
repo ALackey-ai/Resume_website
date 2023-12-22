@@ -1,9 +1,9 @@
 <!-- starter code -->
 
 
-<!-- I think this makes the css values recognize a mobile screen size -->
+<!-- I think this line makes the css values recognize a mobile screen size -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<!--  -->
 
 <?php
 // php code to run if needed
