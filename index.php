@@ -44,10 +44,10 @@
           </h1>
           <div id="social_links">
             <a href="mailto:andrewlackey97@gmail.com">
-              <img src="gmail-icon.png" id="gmail-icon">
+              <img src="gmail-icon.png" id="gmail-icon" alt="Email me">
             </a>
             <a href="https://www.linkedin.com/in/andrew-lackey-bb2049253/" target="_blank">
-              <img src="linked_in_icon.png" id="linked_in_icon">
+              <img src="linked_in_icon.png" id="linked_in_icon" alt="My Linked In page">
             </a>
           </div>
         </div>
@@ -59,11 +59,11 @@
                 A little about me...
               </h2>
               <ul id="stats">
-                <li><a href="link to achor of my degree">B.S. Computer Science, Emphasis in Cyber Security<a></li>
-                <li><a href="link to achor of fire">Three summers of first responder experience as wildland firefighter<a></li>
-                <li><a href="link to achor of HPE internship">Four months with Hewlett Packard Enterprise as Software Engineer Intern<a></li>
-                <li><a href="link to achor of HPE job">Offered and accepted job as full-time Software Engineer with HPE upon graduation<a></li>
-                <!-- <li><a href="link to achor of HPE job">Currently working as a Software Engineer at Hewlet Packard Enterprise<a></li> -->
+                <li><a href="link to achor of my degree">B.S. Computer Science, Emphasis in Cyber Security from Boise State University<a></li>
+                <li><a href="link to achor of HPE job">Recently started a full-time position as a Software Engineer with HPE<a></li>
+                <li><a href="link to achor of Drone stuff">Experience in flying and creating custom drones<a></li>
+                <li><a href="link to achor of fire">Three summers of first responder experience as wildland firefighter with USFS<a></li>
+                <li><a href="link to achor of Firearms experience">Trained by an experienced law enforcement officer, collegic shooting coach, and other instructors on safe and effective firearm use for hunting, sporting and self defense<a></li>
               </ul>
             </div>
           
