@@ -59,11 +59,16 @@
               <h2 id="About_me">
                 A little about me...
               </h2>
+              <!-- Probably change these from text links to either buttons or div's behind each text. Actually div's behind
+              each could look really nice if I added some js to make them slowly "highlight" or even just slowly gain a shadow
+              to remind the fact that they are clickable. Then link to the tabs at the bottom of the page. If I go the div 
+              route, make sure it still looks good when the text wraps on a smaller screen, especially including on mobile devices. -->
               <ul id="general_stats">
                 <li><a href=#sub_box2>B.S. Computer Science, Emphasis in Cyber Security from Boise State University<a></li>
                 <li><a href=#sub_box3>Software Engineer with Hewlett Packard Enterprise<a></li>
+                <li><a href=#sub_box2>Three summers of first responder experience as wildland firefighter with USFS<a></li>
                 <li><a href="link to achor of Drone stuff">Experience in flying and creating custom drones<a></li>
-                <li><a href=#sub_box3>Three summers of first responder experience as wildland firefighter with USFS<a></li>
+                
                 <li><a href="link to achor of Firearms experience">Trained by an experienced law enforcement officer, collegiate shooting coach, and other instructors on safe and effective firearm use for hunting, sporting and self defense<a></li>
               </ul>
             </div>
@@ -97,7 +102,7 @@
                 <li><a>July 2024 - present: Software Engineer with Hewlett Packard Enterprise</a></li>
                   <ul><a>- Work on Operating Systems (I should add more details here)</a></ul>
                 <li><a>Summer of &nbsp;'23: Software Engineer Intern with Hewlett Packard Enterprise</a></li>
-                  <ul><a>- I made a helpfull tool for manual and OS triggered firmware updates on a linux based system</a></ul>
+                  <ul><a>- I made a helpful tool for manual and OS triggered firmware updates on a linux based system</a></ul>
                 <li><a>While in college &nbsp;'20-'24: MakerLab Lead at Boise State University</a></li>
                   <ul><a>- Student level leadership position helping teach students how to use innovative technologies</a></ul>
                 <li><a>During summers of college &nbsp;'20-'22: Wildland firefighter for USFS</a></li>
