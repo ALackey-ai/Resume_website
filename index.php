@@ -37,6 +37,7 @@
     <body>
       <div id="particles-js" id="par1">
 
+      <!-- wifey says I should have a more professional picture -->
         <div id="main_box">
           <img src="portrait.jpg" id="portrait">
           <h1 id="title">
@@ -53,33 +54,61 @@
         </div>
         
         <div id="wrapper">
-          <div id="sub_box1">
+          <div class="sub_box" id="sub_box1">
             <div id="Introduction_background">
               <h2 id="About_me">
                 A little about me...
               </h2>
-              <ul id="stats">
-                <li><a href="link to achor of my degree">B.S. Computer Science, Emphasis in Cyber Security from Boise State University<a></li>
-                <li><a href="link to achor of HPE job">Recently started a full-time position as a Software Engineer with HPE<a></li>
+              <ul id="general_stats">
+                <li><a href=#sub_box2>B.S. Computer Science, Emphasis in Cyber Security from Boise State University<a></li>
+                <li><a href=#sub_box3>Software Engineer with Hewlett Packard Enterprise<a></li>
                 <li><a href="link to achor of Drone stuff">Experience in flying and creating custom drones<a></li>
-                <li><a href="link to achor of fire">Three summers of first responder experience as wildland firefighter with USFS<a></li>
-                <li><a href="link to achor of Firearms experience">Trained by an experienced law enforcement officer, collegic shooting coach, and other instructors on safe and effective firearm use for hunting, sporting and self defense<a></li>
+                <li><a href=#sub_box3>Three summers of first responder experience as wildland firefighter with USFS<a></li>
+                <li><a href="link to achor of Firearms experience">Trained by an experienced law enforcement officer, collegiate shooting coach, and other instructors on safe and effective firearm use for hunting, sporting and self defense<a></li>
               </ul>
             </div>
-          
-
           </div>
 
-          <!-- <div id="sub_box2">
-            <div id="Extended_descrip">
-              <h2 id="More_about_me">
-                Extended description of experiences and skills
+          <div class="sub_box" id="sub_box2">
+            <div id="Education_descrip">
+              <h2 id="Formal_ed">
+                Formal education 
               </h2>
-              <ul id="details">
-                <li><a href="link to this list item">Put Something here...<a></li>
+              <ul id="ed_details">
+                <li><a>Bachelor of Science in Computer Science from Boise State University</a></li>
+                  <ul><a>- Graduated Cum Laude, Class of 2024</a></ul>
+                <li><a>Completed degree with Emphasis in Cyber Security</a></li>
+                  <ul><a>- Cyber Security Emphasis is curriculum endorsed by the NSA</a></ul>
+                <li><a>Educated and Certified by Federal Aviation Administration on Part 107</a></li>
+                  <ul><a>- The FAA offers a Remote Pilot Certificate that satisfies the Small UAS Rule (Part 107). I have been certified under this rule to fly a small UAS and have approx 40 flight hours of experience so far.</a></ul>
               </ul>
             </div>
-          </div> -->
+          </div>
+
+          <!-- I think I want to do expanded info for each section as linked and clickable "tabs" directly 
+          below and connected to this section. Make it easy to undertand where the user is brought to on the
+          page and intuitive to navigate -->
+          <div class="sub_box" id="sub_box3">
+            <div id="Job_exp_descrip">
+              <h2 id="Job_exp">
+                Job Experience 
+              </h2>
+              <ul id="job_exp_details">
+                <li><a>July 2024 - present: Software Engineer with Hewlett Packard Enterprise</a></li>
+                  <ul><a>- Work on Operating Systems (I should add more details here)</a></ul>
+                <li><a>Summer of &nbsp;'23: Software Engineer Intern with Hewlett Packard Enterprise</a></li>
+                  <ul><a>- I made a helpfull tool for manual and OS triggered firmware updates on a linux based system</a></ul>
+                <li><a>While in college &nbsp;'20-'24: MakerLab Lead at Boise State University</a></li>
+                  <ul><a>- Student level leadership position helping teach students how to use innovative technologies</a></ul>
+                <li><a>During summers of college &nbsp;'20-'22: Wildland firefighter for USFS</a></li>
+                  <ul><a>- Spent 3 summers learning not only how to fight fire, but how to effectively work as a team in coordination with other teams sometimes on an inter-agency operation in order to contain and control any given incident</a></ul>
+                <li><a>Summer of &nbsp;'19: Groundskeeper for OSU extention office</a></li>
+                  <ul><a>- Maintained and did general upkeep for the expansive grounds of the OSU Agricultural Extension Office in Union, Oregon</a></ul>
+                <li><a>Summer of &nbsp;'18: Barrista for local coffee shop</a></li>
+                  <ul><a>- Took orders, made and prepared an assortment of coffee related drinks, and was a barrista in a small town coffee shop</a></ul>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 

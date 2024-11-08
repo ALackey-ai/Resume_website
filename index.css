@@ -7,7 +7,7 @@ body {
     width: 100%;
     position: relative;
     z-index: -50;
-    background-color:rgb(65, 65, 65);
+    background-color:rgb(100, 100, 100);
     margin: 0px;
 }
 
@@ -21,7 +21,7 @@ head {
 #particles-js {
     position: relative;
     width: 100%;
-    height: 1600px;
+    height: 3000px;
     z-index: -100;
 }
 
@@ -163,9 +163,12 @@ head {
     }
 }
 
-#sub_box1 {
+
+/* SUB BOX 1 */
+
+.sub_box {
     width: 100%;
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(80, 80, 80);
     margin-bottom: 100px;
     outline-style: solid;
     outline-color: orange;
@@ -182,8 +185,8 @@ head {
     margin-top: 0px;
     margin-bottom: 0px;
     display: block;
-    padding-top: 80px;
-    padding-bottom: 95px;
+    padding-top: 50px;
+    padding-bottom: 68px;
     /* outline-style: solid;
     outline-color: green; */
 }
@@ -201,13 +204,13 @@ head {
     font-size: 50px;
 }
 
-#stats li a{
+#general_stats li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
-#stats li {
+#general_stats li {
     color: white;
     font-size: 20px;
     padding-bottom: 12px;
@@ -219,56 +222,154 @@ head {
 }
 
 @media only screen and (max-width: 650px) { /*for mobile view */
-    #stats li {
+    #general_stats li {
         padding-bottom: 13px;
     }
 }
 
 
+/* SUB BOX 2 */
+
 #sub_box2 {
-    width: 100%;
-    background-color: rgb(58, 58, 58);
-    margin-bottom: 100px;
-    outline-style: solid;
-    outline-color: orange;
+    margin-top: 150px;
 }
+/* TODO: verify that margin-top change is needed for sub_box2 */
 @media only screen and (max-width: 650px) { /*for mobile view */
     #sub_box2 {
-        margin-top: -97px;
+        margin-top: -50px;
     }
 }
 
 
-/* #Extended_descrip {
-    margin: 25%;
+#Education_descrip {
+    margin: 20%;
     margin-top: 0px;
     margin-bottom: 0px;
     display: block;
-    padding-top: 80px;
-    padding-bottom: 95px;
+    padding-top: 50px;
+    padding-bottom: 68px;
+    /* outline-style: solid;
+    outline-color: green; */
 }
-@media (max-width: 650px) { 
-    #Extended_descrip {
+@media only screen and (max-width: 650px) { /*for mobile view */
+    #Education_descrip {
         margin-left: 7%;
         margin-right: 7%;
         padding-top: 50px;
         padding-bottom: 75px;
     }
-} */
+}
 
-/* #Extended_descrip h2 {
-    color: white;
+#Education_descrip h2 {
+    color: rgb(242, 242, 242);
     font-size: 50px;
-} */
+}
 
-/* #details li a{
+#ed_details li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-} */
+}
 
-/* #details li {
+#ed_details li {
     color: white;
     font-size: 20px;
-    padding-bottom: 6px;
-} */
+    padding-bottom: 12px;
+}
+
+#ed_details ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#ed_details ul {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+#Formal_ed {
+    padding-bottom: 0px;
+    margin-bottom: 30;
+}
+
+@media only screen and (max-width: 650px) { /*for mobile view */
+    #ed_details li {
+        padding-bottom: 13px;
+    }
+}
+
+
+/* SUB BOX 3 */
+
+#sub_box3 {
+    margin-top: 150px;
+}
+/* TODO: verify that margin-top change is needed for sub_box2 */
+@media only screen and (max-width: 650px) { /*for mobile view */
+    #sub_box3 {
+        margin-top: -50px;
+    }
+}
+
+
+#Job_exp_descrip {
+    margin: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 68px;
+    /* outline-style: solid;
+    outline-color: green; */
+}
+@media only screen and (max-width: 650px) { /*for mobile view */
+    #Job_exp_descrip {
+        margin-left: 7%;
+        margin-right: 7%;
+        padding-top: 50px;
+        padding-bottom: 75px;
+    }
+}
+
+#Job_exp_descrip h2 {
+    color: rgb(242, 242, 242);
+    font-size: 50px;
+}
+
+#job_exp_details li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#job_exp_details li {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+#job_exp_details ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#job_exp_details ul {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+#Job_exp {
+    padding-bottom: 0px;
+    margin-bottom: 30;
+}
+
+@media only screen and (max-width: 650px) { /*for mobile view */
+    #job_exp_details li {
+        padding-bottom: 13px;
+    }
+}
+
