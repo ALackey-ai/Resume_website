@@ -7,7 +7,7 @@ body {
     width: 100%;
     position: relative;
     z-index: -50;
-    background-color:rgb(100, 100, 100);
+    background-color:rgb(110, 110, 110);
     margin: 0px;
 }
 
@@ -168,7 +168,8 @@ head {
 
 .sub_box {
     width: 100%;
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(95, 95, 95);
+    color: white;
     margin-bottom: 100px;
     outline-style: solid;
     outline-color: orange;
@@ -211,8 +212,8 @@ head {
 }
 
 #general_stats li {
-    color: white;
     font-size: 20px;
+    color: white;
     padding-bottom: 12px;
 }
 
@@ -267,24 +268,20 @@ head {
 
 #ed_details li a{
     text-decoration: none;
-    color: white;
     font-size: 20px;
 }
 
 #ed_details li {
-    color: white;
     font-size: 20px;
     padding-bottom: 12px;
 }
 
 #ed_details ul a{
     text-decoration: none;
-    color: white;
     font-size: 20px;
 }
 
 #ed_details ul {
-    color: white;
     font-size: 20px;
     padding-bottom: 12px;
 }
@@ -305,6 +302,7 @@ head {
 
 #sub_box3 {
     margin-top: 150px;
+    margin-bottom: 2px;
 }
 /* TODO: verify that margin-top change is needed for sub_box2 */
 @media only screen and (max-width: 650px) { /*for mobile view */
@@ -340,24 +338,20 @@ head {
 
 #job_exp_details li a{
     text-decoration: none;
-    color: white;
     font-size: 20px;
 }
 
 #job_exp_details li {
-    color: white;
     font-size: 20px;
     padding-bottom: 12px;
 }
 
 #job_exp_details ul a{
     text-decoration: none;
-    color: white;
     font-size: 20px;
 }
 
 #job_exp_details ul {
-    color: white;
     font-size: 20px;
     padding-bottom: 12px;
 }
@@ -373,3 +367,98 @@ head {
     }
 }
 
+
+
+/* SUB BOX 4 */
+
+#sub_box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Poppins', sans-serif; */
+}
+@media only screen and (max-width: 650px) { /*for mobile view */
+    #sub_box3 {
+        margin-top: -50px; /* will need to verify this is needed here*/
+    }
+}
+
+
+.container {
+    z-index: 10;
+    width: 75%;
+    background-color: rgb(85,85,85);
+    padding: 30px;
+    box-shadow: 0 2px 16px rgba(0,0,0,.15);
+}
+@media only screen and (max-width: 650px) { /*for mobile view */
+    #Job_exp_descrip {
+        margin-left: 7%;
+        margin-right: 7%;
+        padding-top: 50px;
+        padding-bottom: 75px;
+    }
+}
+
+.tab_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid rgb(65,65,65); /* line under all tab names*/
+    position: relative;
+}
+
+.tab_box .tab_btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: none;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.tab_box .tab_btn.active{
+    color: orange; /* text color when tab is selected */
+}
+
+.content_box{
+    padding: 20px;
+}
+.content_box .content h2{
+    font-size: 32px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+.content_box .content{
+    display: none;
+    animation: moving .5s ease;
+}
+@keyframes moving {
+    from{transform: translateX(40px); opacity: 0;}
+    to{transform: translateX(0px); opacity: 1;}
+}
+
+.content_box .content.active{
+    display: block;
+}
+
+.line{
+    position: absolute;
+    top: 61px;
+    left: 70px;
+    width: 130px;
+    height: 4px;
+    background-color: orange;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    display: none;
+    opacity: .75;
+}
+
+.line.active{
+    display: block;
+}

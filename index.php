@@ -114,6 +114,48 @@
               </ul>
             </div>
           </div>
+
+          <div class="sub_box" id="sub_box4">
+            <div class="container">
+              <div class="tab_box">
+                <button class="tab_btn">Software Engineer</button> <!-- If I want this to be open by default change class name to "tab_btn active" -->
+                <button class="tab_btn">Wildland Firefighter</button>
+                <button class="tab_btn">MakerLab Lead</button>
+                <button class="tab_btn">Drone Pilot</button>
+                <div class="line"></div>
+              </div>
+              <div class="content_box">
+                <div class="content">  <!-- If I want this to be open by default change class name to "content active" -->
+                  <h2>Software Engineer</h2>
+                  <p>
+                  Need to add content here
+                  </p>
+                </div>
+
+                <div class="content">
+                  <h2>Wildland Firefighter</h2>
+                  <p>
+                  Need to add content here
+                  </p>
+                </div>
+
+                <div class="content">
+                  <h2>MakerLab Lead</h2>
+                  <p>
+                  Need to add content here
+                  </p>
+                </div>
+
+                <div class="content">
+                  <h2>Drone Pilot</h2>
+                  <p>
+                  Need to add content here
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
@@ -122,6 +164,26 @@
       <script src="particles.js"></script>
       <script src="app.js"></script>
 
+      <!-- javascript for tab screens at bottom of page -->
+      <script>
+        const tabs= document.querySelectorAll('.tab_btn');
+        const all_content= document.querySelectorAll('.content');
+
+        tabs.forEach((tab, index)=>{
+          tab.addEventListener('click', (e)=>{
+            tabs.forEach(tab=>{tab.classList.remove('active')})
+            tab.classList.add('active');
+
+            var line=document.querySelector('.line');
+            line.classList.add('active');
+            line.style.width =e.target.offsetWidth + "px";
+            line.style.left =e.target.offsetLeft + "px";
+
+            all_content.forEach(content=>{content.classList.remove('active')})
+            all_content[index].classList.add('active');
+          })
+        })
+      </script>
     </body>
 </html>
             
